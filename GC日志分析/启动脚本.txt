@@ -1,0 +1,7 @@
+
+ParallelGC
+
+	nohup java -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:gc.log -jar did-api.jar &
+
+	nohup java -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:gc.log -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -jar did-api.jar &
+
