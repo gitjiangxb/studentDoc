@@ -1,0 +1,198 @@
+Classfile /C:/Jiangxb/code/MySelf/studentCode/target/classes/javap/StringAdd.class
+  Last modified 2020-8-12; size 1232 bytes
+  MD5 checksum d2227f81ee105859a363bc3f996431f5
+  Compiled from "StringAdd.java"
+public class javap.StringAdd
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #17.#41        // java/lang/Object."<init>":()V
+   #2 = Methodref          #16.#42        // javap/StringAdd.f1:()V
+   #3 = Methodref          #16.#43        // javap/StringAdd.f2:()V
+   #4 = String             #44            //
+   #5 = Class              #45            // java/lang/StringBuilder
+   #6 = Methodref          #5.#41         // java/lang/StringBuilder."<init>":()V
+   #7 = Methodref          #5.#46         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #8 = String             #47            // A
+   #9 = Methodref          #5.#48         // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #10 = Fieldref           #49.#50        // java/lang/System.out:Ljava/io/PrintStream;
+  #11 = Methodref          #51.#52        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #12 = Class              #53            // java/lang/StringBuffer
+  #13 = Methodref          #12.#41        // java/lang/StringBuffer."<init>":()V
+  #14 = Methodref          #12.#54        // java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #15 = Methodref          #51.#55        // java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #16 = Class              #56            // javap/StringAdd
+  #17 = Class              #57            // java/lang/Object
+  #18 = Utf8               <init>
+  #19 = Utf8               ()V
+  #20 = Utf8               Code
+  #21 = Utf8               LineNumberTable
+  #22 = Utf8               LocalVariableTable
+  #23 = Utf8               this
+  #24 = Utf8               Ljavap/StringAdd;
+  #25 = Utf8               main
+  #26 = Utf8               ([Ljava/lang/String;)V
+  #27 = Utf8               args
+  #28 = Utf8               [Ljava/lang/String;
+  #29 = Utf8               f1
+  #30 = Utf8               i
+  #31 = Utf8               I
+  #32 = Utf8               src
+  #33 = Utf8               Ljava/lang/String;
+  #34 = Utf8               StackMapTable
+  #35 = Class              #58            // java/lang/String
+  #36 = Utf8               f2
+  #37 = Utf8               Ljava/lang/StringBuffer;
+  #38 = Class              #53            // java/lang/StringBuffer
+  #39 = Utf8               SourceFile
+  #40 = Utf8               StringAdd.java
+  #41 = NameAndType        #18:#19        // "<init>":()V
+  #42 = NameAndType        #29:#19        // f1:()V
+  #43 = NameAndType        #36:#19        // f2:()V
+  #44 = Utf8
+  #45 = Utf8               java/lang/StringBuilder
+  #46 = NameAndType        #59:#60        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #47 = Utf8               A
+  #48 = NameAndType        #61:#62        // toString:()Ljava/lang/String;
+  #49 = Class              #63            // java/lang/System
+  #50 = NameAndType        #64:#65        // out:Ljava/io/PrintStream;
+  #51 = Class              #66            // java/io/PrintStream
+  #52 = NameAndType        #67:#68        // println:(Ljava/lang/String;)V
+  #53 = Utf8               java/lang/StringBuffer
+  #54 = NameAndType        #59:#69        // append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #55 = NameAndType        #67:#70        // println:(Ljava/lang/Object;)V
+  #56 = Utf8               javap/StringAdd
+  #57 = Utf8               java/lang/Object
+  #58 = Utf8               java/lang/String
+  #59 = Utf8               append
+  #60 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #61 = Utf8               toString
+  #62 = Utf8               ()Ljava/lang/String;
+  #63 = Utf8               java/lang/System
+  #64 = Utf8               out
+  #65 = Utf8               Ljava/io/PrintStream;
+  #66 = Utf8               java/io/PrintStream
+  #67 = Utf8               println
+  #68 = Utf8               (Ljava/lang/String;)V
+  #69 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #70 = Utf8               (Ljava/lang/Object;)V
+{
+  public javap.StringAdd();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 10: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ljavap/StringAdd;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #2                  // Method f1:()V
+         3: invokestatic  #3                  // Method f2:()V
+         6: return
+      LineNumberTable:
+        line 12: 0
+        line 13: 3
+        line 14: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  args   [Ljava/lang/String;
+
+  public static void f1();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=0
+         0: ldc           #4                  // String
+         2: astore_0
+         3: iconst_0
+         4: istore_1
+         5: iload_1
+         6: bipush        10
+         8: if_icmpge     37
+        11: new           #5                  // class java/lang/StringBuilder
+        14: dup
+        15: invokespecial #6                  // Method java/lang/StringBuilder."<init>":()V
+        18: aload_0
+        19: invokevirtual #7                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        22: ldc           #8                  // String A
+        24: invokevirtual #7                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        27: invokevirtual #9                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        30: astore_0
+        31: iinc          1, 1
+        34: goto          5
+        37: getstatic     #10                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        40: aload_0
+        41: invokevirtual #11                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        44: return
+      LineNumberTable:
+        line 17: 0
+        line 18: 3
+        line 20: 11
+        line 18: 31
+        line 22: 37
+        line 23: 44
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            5      32     1     i   I
+            3      42     0   src   Ljava/lang/String;
+      StackMapTable: number_of_entries = 2
+        frame_type = 253 /* append */
+          offset_delta = 5
+          locals = [ class java/lang/String, int ]
+        frame_type = 250 /* chop */
+          offset_delta = 31
+
+  public static void f2();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=0
+         0: new           #12                 // class java/lang/StringBuffer
+         3: dup
+         4: invokespecial #13                 // Method java/lang/StringBuffer."<init>":()V
+         7: astore_0
+         8: iconst_0
+         9: istore_1
+        10: iload_1
+        11: bipush        10
+        13: if_icmpge     29
+        16: aload_0
+        17: ldc           #8                  // String A
+        19: invokevirtual #14                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        22: pop
+        23: iinc          1, 1
+        26: goto          10
+        29: getstatic     #10                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        32: aload_0
+        33: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+        36: return
+      LineNumberTable:
+        line 27: 0
+        line 28: 8
+        line 29: 16
+        line 28: 23
+        line 31: 29
+        line 32: 36
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           10      19     1     i   I
+            8      29     0   src   Ljava/lang/StringBuffer;
+      StackMapTable: number_of_entries = 2
+        frame_type = 253 /* append */
+          offset_delta = 10
+          locals = [ class java/lang/StringBuffer, int ]
+        frame_type = 250 /* chop */
+          offset_delta = 18
+}
+SourceFile: "StringAdd.java"

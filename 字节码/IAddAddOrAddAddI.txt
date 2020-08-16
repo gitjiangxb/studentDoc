@@ -1,0 +1,129 @@
+Classfile /C:/Jiangxb/code/MySelf/studentCode/target/classes/javap/IAddAddOrAddAddI.class
+  Last modified 2020-8-11; size 769 bytes
+  MD5 checksum ef99624aba024b2993a23ae1a2d55379
+  Compiled from "IAddAddOrAddAddI.java"
+public class javap.IAddAddOrAddAddI
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #7.#26         // java/lang/Object."<init>":()V
+   #2 = Methodref          #6.#27         // javap/IAddAddOrAddAddI.iAddAdd:()V
+   #3 = Methodref          #6.#28         // javap/IAddAddOrAddAddI.addAddI:()V
+   #4 = Fieldref           #29.#30        // java/lang/System.out:Ljava/io/PrintStream;
+   #5 = Methodref          #31.#32        // java/io/PrintStream.println:(I)V
+   #6 = Class              #33            // javap/IAddAddOrAddAddI
+   #7 = Class              #34            // java/lang/Object
+   #8 = Utf8               <init>
+   #9 = Utf8               ()V
+  #10 = Utf8               Code
+  #11 = Utf8               LineNumberTable
+  #12 = Utf8               LocalVariableTable
+  #13 = Utf8               this
+  #14 = Utf8               Ljavap/IAddAddOrAddAddI;
+  #15 = Utf8               main
+  #16 = Utf8               ([Ljava/lang/String;)V
+  #17 = Utf8               args
+  #18 = Utf8               [Ljava/lang/String;
+  #19 = Utf8               iAddAdd
+  #20 = Utf8               i
+  #21 = Utf8               I
+  #22 = Utf8               j
+  #23 = Utf8               addAddI
+  #24 = Utf8               SourceFile
+  #25 = Utf8               IAddAddOrAddAddI.java
+  #26 = NameAndType        #8:#9          // "<init>":()V
+  #27 = NameAndType        #19:#9         // iAddAdd:()V
+  #28 = NameAndType        #23:#9         // addAddI:()V
+  #29 = Class              #35            // java/lang/System
+  #30 = NameAndType        #36:#37        // out:Ljava/io/PrintStream;
+  #31 = Class              #38            // java/io/PrintStream
+  #32 = NameAndType        #39:#40        // println:(I)V
+  #33 = Utf8               javap/IAddAddOrAddAddI
+  #34 = Utf8               java/lang/Object
+  #35 = Utf8               java/lang/System
+  #36 = Utf8               out
+  #37 = Utf8               Ljava/io/PrintStream;
+  #38 = Utf8               java/io/PrintStream
+  #39 = Utf8               println
+  #40 = Utf8               (I)V
+{
+  public javap.IAddAddOrAddAddI();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 11: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ljavap/IAddAddOrAddAddI;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #2                  // Method iAddAdd:()V
+         3: invokestatic  #3                  // Method addAddI:()V
+         6: return
+      LineNumberTable:
+        line 13: 0
+        line 14: 3
+        line 15: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  args   [Ljava/lang/String;
+
+  public static void iAddAdd();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=0
+         0: iconst_0
+         1: istore_0
+         2: iload_0
+         3: iinc          0, 1
+         6: istore_1
+         7: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        10: iload_1
+        11: invokevirtual #5                  // Method java/io/PrintStream.println:(I)V
+        14: return
+      LineNumberTable:
+        line 18: 0
+        line 19: 2
+        line 20: 7
+        line 21: 14
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            2      13     0     i   I
+            7       8     1     j   I
+
+  public static void addAddI();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=0
+         0: iconst_0
+         1: istore_0
+         2: iinc          0, 1
+         5: iload_0
+         6: istore_1
+         7: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        10: iload_1
+        11: invokevirtual #5                  // Method java/io/PrintStream.println:(I)V
+        14: return
+      LineNumberTable:
+        line 24: 0
+        line 25: 2
+        line 26: 7
+        line 27: 14
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            2      13     0     i   I
+            7       8     1     j   I
+}
+SourceFile: "IAddAddOrAddAddI.java"
