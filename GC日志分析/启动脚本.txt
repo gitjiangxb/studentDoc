@@ -1,0 +1,18 @@
+
+ParallelGC
+
+	nohup java -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:gc.log -jar did-api.jar &
+
+	nohup java -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:gc.log -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -jar did-api.jar &
+	
+CMS GC
+	
+	nohup java -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:CMSGC.log -jar did-api.jar &
+	
+	nohup java -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:CMSGC-heap.log -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -jar did-api.jar &
+
+G1 GC
+	
+	nohup java -XX:+UseG1GC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:G1GC.log -jar did-api.jar &
+	
+	nohup java -XX:+UseG1GC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:G1GC-heap.log -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -jar did-api.jar &
